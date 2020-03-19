@@ -24,7 +24,7 @@ body
 .user-box img
 {
     border-radius: 50%;
-    width: 400px;
+    width: 350px;
     border: 2px solid #b3b3ff;
 }
 .user-box h1
@@ -98,7 +98,8 @@ body
 }
 .navbar-toggler
 {
-    outline: none !important; 
+    outline: none !important;
+    height: 60px;
 }
 .navbar-nav
 {
@@ -331,8 +332,31 @@ body
     transition: 1s;
 }
 
+/*--------------Mobile------------------*/
 
-
+@media screen and (max-device-width: 680px) {
+    
+    .profile-img {
+        height: 300px;
+    }   
+    
+#header
+    {
+    height: 100vh;
+    background: url(img/redone/Mobile.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 400px;
+    }
+.user-box img {
+    width: 500px;
+    }
+    
+.contact{
+    background: url(img/redone/Mobile.jpg);    
+    }
+}
 
 
 

@@ -8,6 +8,9 @@ body
 #header
 {
     height: 100vh;
+    background: -webkit-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(img/redone/org.jpg);
+    background: -o-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(img/redone/org.jpg);
+    background: -moz-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(img/redone/org.jpg);
     background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(img/redone/org.jpg);
     background-position: center;
     background-size: cover;
@@ -343,6 +346,9 @@ body
 #header
     {
     height: 100vh;
+    background: -webkit-url(img/redone/Mobile.jpg);
+    background: -o-url(img/redone/Mobile.jpg);
+    background: -moz-url(img/redone/Mobile.jpg);
     background: url(img/redone/Mobile.jpg);
     background-position: center;
     background-size: cover;
@@ -354,6 +360,9 @@ body
     }
     
 .contact{
+    background: -webkit-url(img/redone/Mobile.jpg);
+    background: -o-url(img/redone/Mobile.jpg);
+    background: -moz-url(img/redone/Mobile.jpg);
     background: url(img/redone/Mobile.jpg);    
     }
 }

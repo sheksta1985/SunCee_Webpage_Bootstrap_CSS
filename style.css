@@ -91,18 +91,18 @@ body
 }
 .navbar-brand img
 {
-    height: 50px;
+    height: 40px;
     
 }
 .nav-bar .fa-bars
 {
-    font-size: 45px;
+    font-size: 40px;
     color: #ff6600;
 }
 .navbar-toggler
 {
     outline: none !important;
-    height: 60px;
+    height: 10px;
 }
 .navbar-nav
 {
